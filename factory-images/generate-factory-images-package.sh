@@ -27,6 +27,7 @@
 # 527221 = JOP40
 # 527662 = JOP40C
 
+<<<<<<< HEAD
 source ../../../common/clear-factory-images-variables.sh
 BUILD=527662
 DEVICE=maguro
@@ -45,4 +46,26 @@ VERSION=jop40c
 SRCPREFIX=signed-
 BOOTLOADER=primelc03
 RADIO=i9250xxlh1
+=======
+# 330937 = IMM76I
+# 397360 = JRO02C
+# 398337 = JRO03C
+
+BUILD=398337
+DEVICE=maguro
+PRODUCT=yakju
+VERSION=jro03c
+SRCPREFIX=signed-
+BOOTLOADER=primelc03
+RADIO=i9250xxlf1
+
+source ../../../common/clear-factory-images-variables.sh
+BUILD=398337
+DEVICE=maguro
+PRODUCT=takju
+VERSION=jro03c
+SRCPREFIX=signed-
+BOOTLOADER=primelc03
+RADIO=i9250xxlf1
+>>>>>>> 8fdd684... Merge remote-tracking branch 'remotes/aosp/jb-mr1-release' into jb-4.2
 source ../../../common/generate-factory-images-common.sh
