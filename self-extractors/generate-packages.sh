@@ -35,20 +35,9 @@
 # 405518 = JRO03H
 # 438695 = JRO03R
 # 463694 = JZO54G
-<<<<<<< HEAD
-# 485486 = JZO54K
 # end jb-dev
 # start jb-mr1-dev
 # 465036 = JOO75
-# 521994 = JOP32B
-# 524024 = JOP36
-# 527221 = JOP40
-# 527662 = JOP40C
-=======
-# end jb-dev
-# start jb-mr1-dev
-# 465036 = JOO75
->>>>>>> 8fdd684... Merge remote-tracking branch 'remotes/aosp/jb-mr1-release' into jb-4.2
 # end jb-mr1-dev
 BRANCH=jb-mr1-dev
 if test $BRANCH=ics-mr1
@@ -58,15 +47,6 @@ then
 fi # ics-mr1
 if test $BRANCH=jb-dev
 then
-<<<<<<< HEAD
-  ZIP=yakju-ota-485486.zip
-  BUILD=jzo54k
-fi # jb-dev
-if test $BRANCH=jb-mr1-dev
-then
-  ZIP=yakju-ota-527662.zip
-  BUILD=jop40c
-=======
   ZIP=yakju-ota-463694.zip
   BUILD=jzo54g
 fi # jb-dev
@@ -74,17 +54,12 @@ if test $BRANCH=jb-mr1-dev
 then
   ZIP=yakju-ota-465036.zip
   BUILD=joo75
->>>>>>> 8fdd684... Merge remote-tracking branch 'remotes/aosp/jb-mr1-release' into jb-4.2
 fi # jb-mr1-dev
 ROOTDEVICE=maguro
 DEVICE=maguro
 MANUFACTURER=samsung
 
-<<<<<<< HEAD
-for COMPANY in broadcom imgtec invensense nxp samsung widevine # csr ti
-=======
 for COMPANY in broadcom csr imgtec invensense nxp samsung ti widevine
->>>>>>> 8fdd684... Merge remote-tracking branch 'remotes/aosp/jb-mr1-release' into jb-4.2
 do
   echo Processing files from $COMPANY
   rm -rf tmp
