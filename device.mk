@@ -58,6 +58,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
         dalvik.vm.heapidealfree=8388608 \
         dalvik.vm.heapconcurrentstart=2097152 \
         dalvik.vm.verify-bytecode=false \
+        dalvik.vm.dexopt-data-only=1 \
         ro.dalvik.vm.checkjni=0 \
         dalvik.vm.dexopt-flags=v=n,o=v \
         debug.composition.type=gpu \
