@@ -33,6 +33,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
         ro.kernel.android.checkjni=0 \
         ro.media.enc.jpeg.quality=100 \
         ro.config.nocheckin=1 \
+        ro.config.hw_quickpoweron=true \
         debug.performance.tuning=1 \
         persist.service.swiqi.enable=1 \
         video.accelerate.hw=1 \
